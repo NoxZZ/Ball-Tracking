@@ -6,6 +6,15 @@ other visualisations, which result in very new ways of experiencing and analysin
 The ready acceptance of the system indicates the growing potential for multi-camera based real-time tracking in broadcast applications.
 This product is efficient enough that it works on an embedded device mounted with a PyCamera(tested already).
 
+# Project Overview
+Image Processing thus provides the instances of occurrences of ball over the entire frames of the video resulting into trajectory of the ball.
+The visualizations and statistics obtained from the ball trajectories have been used in forming the pitch map.
+Along with this, the pie chart formed provides the frequency of the lengths of pitched balls.
+Thus, a bowler’s performance can be analyzed effectively using this system by virtue of:
+1) Trajectory Analysis
+2) Pitch Map
+3) Pie Graph
+
 # Methodology
 A] Pre-processing the video:
 The inﬁnite loop is used so that the web camera captures the frames in every instance and is open during the entire course of the program. After capturing the live stream frame by frame we are converting each frame in BGR colour space(the default one) to HSV colour space.
