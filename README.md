@@ -17,19 +17,26 @@ Thus, a bowler’s performance can be analyzed effectively using this system by 
 
 # Methodology
 A] Pre-processing the video:
+
 The inﬁnite loop is used so that the web camera captures the frames in every instance and is open during the entire course of the program. After capturing the live stream frame by frame we are converting each frame in BGR colour space(the default one) to HSV colour space.
 Now we know how to convert BGR image to HSV, we can use this to extract a coloured object.
+
 B] Ball Tracking:
+
 a) Constructing Mask:
 Construct a mask for the colour ”green”, then perform a series of dilations and erosions to remove any small blobs left in the mask.
 b) Contour Detection:
 Find contours in the mask. Find the largest contour in the mask, then use it to compute the minimum enclosing circle and centroid.
 Thresholding is done initially for green colour levels using Gaussian blur and colour extraction technique.
+
 C] Determining the Trajectory:
+
 [1] Draw the circle and centroid on the frame, then update the list of tracked points.
 [2] Update the points queue.
 [3] Loop over the set of tracked points.
 [4] Display the frame on screen.
+
 D] Plotting the Pitch Map:
+
 [1] Analyse the detected set of points so as to get the position of ball on the pitch.
 [2] Plot the pitch and plot the sorted points on the frame containing the pitch.
