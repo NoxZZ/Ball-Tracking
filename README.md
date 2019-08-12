@@ -7,6 +7,8 @@ The ready acceptance of the system indicates the growing potential for multi-cam
 This product is efficient enough that it works on an embedded device(Raspberry Pi/Beaglebone) mounted with a PyCamera(This setup has been tested successfully by me).
 
 # Project Overview
+This concept is used in badminton, tennis and cricket as well.
+Noteworthy difference between already implemented system and this system is that this system can be implemented using an embedded device thus ensuring portability and cost effectiveness.
 Image Processing thus provides the instances of occurrences of ball over the entire frames of the video resulting into trajectory of the ball.
 The visualizations and statistics obtained from the ball trajectories have been used in forming the pitch map.
 Along with this, the pie chart formed provides the frequency of the lengths of pitched balls.
