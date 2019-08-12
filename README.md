@@ -2,9 +2,9 @@
 # Image Processing Using OpenCV Python
 This project aims at making a real-time computer vision system that tracks the exact motion of a ball in 3D using multiple cameras. 
 This system is implemented using OpenCV. Ball tracking enables virtual replays, new game statistics, analysing gameplay, and
-other visualisations, which result in very new ways of experiencing and analysing cricket matches.
+other visualisations, which result in very new ways of experiencing and analysing cricket and tennis matches.
 The ready acceptance of the system indicates the growing potential for multi-camera based real-time tracking in broadcast applications.
-This product is efficient enough that it works on an embedded device mounted with a PyCamera(tested already).
+This product is efficient enough that it works on an embedded device(Raspberry Pi/Beaglebone) mounted with a PyCamera(This setup has been tested successfully by me).
 
 # Project Overview
 Image Processing thus provides the instances of occurrences of ball over the entire frames of the video resulting into trajectory of the ball.
